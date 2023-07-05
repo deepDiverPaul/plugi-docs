@@ -8,7 +8,7 @@
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "lint": "eslint .",
-    "deploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
+    "deploy": "gh-pages -d .output/public -t true"
   },
   "devDependencies": {
     "@nuxt-themes/docus": "^1.12.1",
@@ -17,7 +17,7 @@
     "@nuxtjs/plausible": "^0.2.1",
     "@types/node": "^20.2.5",
     "eslint": "^8.42.0",
-    "nuxt": "^3.5.3",
-    "push-dir": "^0.4.1"
+    "gh-pages": "^5.0.0",
+    "nuxt": "^3.5.3"
   }
 }
