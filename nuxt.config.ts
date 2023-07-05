@@ -2,6 +2,11 @@ export default defineNuxtConfig({
   // https://github.com/nuxt-themes/docus
   extends: '@nuxt-themes/docus',
 
+  target: 'static',
+  app: {
+    baseURL: '/plugi-docs/'
+  },
+
   modules: [
     // https://github.com/nuxt-modules/plausible
     '@nuxtjs/plausible',
