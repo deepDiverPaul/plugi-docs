@@ -13,10 +13,9 @@ export default defineAppConfig({
       // }
     },
     github: {
-      dir: '.starters/default/content',
       branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      repo: 'plugi-docs',
+      owner: 'deepDiverPaul',
       edit: true
     },
     aside: {
